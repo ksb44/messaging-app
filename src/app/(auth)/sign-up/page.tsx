@@ -16,7 +16,8 @@ import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, For
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { Loader2 } from 'lucide-react'
-function page() {
+
+function Page() {
 
   const { toast } = useToast()
   const [username,setUsername]=useState('')
@@ -162,4 +163,4 @@ lg:text-5xl mb-6'>Join Message</h1>
   )
 }
 
-export default page
+export default Page

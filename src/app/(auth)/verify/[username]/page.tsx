@@ -11,7 +11,7 @@ import axios from 'axios'
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
-function page() {
+function Page() {
     const router =useRouter()
     const {username} =useParams<{username:string}>()
     const {toast} =useToast()
@@ -86,4 +86,4 @@ lg:text-5xl mb-6'>Verify your Account</h1>
   )
 }
 
-export default page
+export default Page
